@@ -15,7 +15,7 @@ const simpleSearch = function (list,target) {
       // Check if target value is found in the list 
       if (list[i] === target) {
         // return the index  where value is found
-        position = i; 
+        return position = i; 
       }
     }
     // Return -1 if not found in list        
